@@ -1,0 +1,32 @@
+Writing logs to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/log.txt.
+Loading [94mdatasets[0m dataset [94msnli[0m, split [94mtrain[0m.
+Loading [94mdatasets[0m dataset [94msnli[0m, split [94mvalidation[0m.
+Loaded dataset. Found: 3 labels: [0, 1, 2]
+Loading transformers AutoModelForSequenceClassification: bert-base-cased
+Training model across 1 GPUs
+Wrote original training args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/train_args.json.
+***** Running training *****
+	Num examples = 137376
+	Batch size = 64
+	Max sequence length = 128
+	Num steps = 6438
+	Num epochs = 3
+	Learning rate = 2e-05
+Train accuracy: 81.06583391567669%
+Eval accuracy: 87.48221906116643%
+Best acc found. Saved model to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/.
+Saved updated args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/train_args.json
+Train accuracy: 88.62392266480316%
+Eval accuracy: 88.16297500508027%
+Best acc found. Saved model to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/.
+Saved updated args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/train_args.json
+Train accuracy: 91.68195317959469%
+Eval accuracy: 88.38650680755944%
+Best acc found. Saved model to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/.
+Saved updated args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/train_args.json
+Finished training. Re-loading and evaluating model from disk.
+Loading transformers AutoModelForSequenceClassification: bert-base-cased
+Saved model accuracy: 88.38650680755944%
+Saved tokenizer <textattack.models.tokenizers.auto_tokenizer.AutoTokenizer object at 0x7f8c98f9ada0> to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/.
+Wrote README to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/README.md.
+Wrote final training args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/bert-base-cased-snli-2021-01-18-16-45-59-413932/train_args.json.

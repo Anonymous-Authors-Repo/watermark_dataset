@@ -1,0 +1,28 @@
+Writing logs to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/log.txt.
+Loading [94mdatasets[0m dataset [94mimdb[0m, split [94mtrain[0m.
+Loading [94mdatasets[0m dataset [94mimdb[0m, split [94mtest[0m.
+Loaded dataset. Found: 2 labels: [0, 1]
+Loading transformers AutoModelForSequenceClassification: distilbert-base-cased
+Training model across 1 GPUs
+Wrote original training args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/train_args.json.
+***** Running training *****
+	Num examples = 25063
+	Batch size = 64
+	Max sequence length = 128
+	Num steps = 1173
+	Num epochs = 3
+	Learning rate = 2e-05
+Train accuracy: 81.35897538203727%
+Eval accuracy: 79.416%
+Best acc found. Saved model to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/.
+Saved updated args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/train_args.json
+Train accuracy: 88.74436420221043%
+Eval accuracy: 47.616%
+Train accuracy: 92.09192834058173%
+Eval accuracy: 40.768%
+Finished training. Re-loading and evaluating model from disk.
+Loading transformers AutoModelForSequenceClassification: distilbert-base-cased
+Saved model accuracy: 79.416%
+Saved tokenizer <textattack.models.tokenizers.auto_tokenizer.AutoTokenizer object at 0x7f8b6ee342e8> to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/.
+Wrote README to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/README.md.
+Wrote final training args to /home/nightknight/anaconda3/envs/NLP/lib/python3.6/site-packages/outputs/training/distilbert-base-cased-imdb-2021-01-25-15-44-19-113580/train_args.json.
