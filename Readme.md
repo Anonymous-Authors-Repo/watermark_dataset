@@ -2,7 +2,7 @@
 
 This is the pytorch implemention for paper **“Did You Train on My Dataset? Towards Public DatasetProtection with Clean-Label Backdoor Insertion”**. The huge supporting training data on the Internet has been a key factor in the success of deep learning models. However, it also raises concerns about the unauthorized exploitation of the dataset, e.g., for commercial propose, which is forbidden by the dataset licenses. In this paper, we introduce a backdoor-based watermarking approach that can be used as a general framework to protect public-available data.
 <p align="center">
-<img src="https://github.com/Anonymous-Authors-Repo/watermark_dataset/blob/main/pipeline-1.jpg" img width="1000" height="370" />
+<img src="https://github.com/Anonymous-Authors-Repo/watermark_dataset/blob/main/pipeline-1.jpg" img width="1000" height="350" />
 </p>
 
 ## Environment
