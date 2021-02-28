@@ -14,7 +14,7 @@ This is the pytorch implemention for paper **“Did You Train on My Dataset? Tow
 The watermarking process is as follows. The defender first chooses a target class *C*, and collects a fraction of data from class *C* as the watermarking examples D<sub>wm</sub>. Defenders then apply the adversarial transformation to all samples in D<sub>wm</sub>. Finally, a preset trigger pattern *t* is added to D<sub>wm</sub>. Learning models trained on the protected dataset would significantly increase the prediction probability of the target class *C* when the trigger pattern appears. 
 ## Image Data
 We show the code for Cifar-10 and Caltech256 dataset in Code/Image.
-## NLP Data
+## Text Data
 We show the code for SST-2, IMDB and NLI dataset in Code/NLP.
 ## Audio Data
 We show the code for AudioMnist dataset in Code/Audio.
